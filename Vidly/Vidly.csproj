@@ -217,6 +217,14 @@
     <Compile Include="Migrations\201810051913084_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201810051913084_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810051957534_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201810051957534_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201810051957534_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810052002130_NameMembershipTypeNotNullable.cs" />
+    <Compile Include="Migrations\201810052002130_NameMembershipTypeNotNullable.Designer.cs">
+      <DependentUpon>201810052002130_NameMembershipTypeNotNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -363,6 +371,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810051913084_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201810051913084_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810051957534_AddNameToMembershipType.resx">
+      <DependentUpon>201810051957534_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810052002130_NameMembershipTypeNotNullable.resx">
+      <DependentUpon>201810052002130_NameMembershipTypeNotNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
