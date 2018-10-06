@@ -7,7 +7,7 @@ namespace Vidly.Migrations
     {
         public override void Up()
         {
-            AddColumn("dbo.Customers", "Birthday", c => c.DateTime(nullable: false));
+            AddColumn("dbo.Customers", "Birthday", c => c.DateTime(nullable: true));
         }
         
         public override void Down()

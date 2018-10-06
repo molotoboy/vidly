@@ -229,9 +229,9 @@
     <Compile Include="Migrations\201810060224019_AddCustomerBirthday.Designer.cs">
       <DependentUpon>201810060224019_AddCustomerBirthday.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201810060227513_SetNullableToCustomerBirthday.cs" />
-    <Compile Include="Migrations\201810060227513_SetNullableToCustomerBirthday.Designer.cs">
-      <DependentUpon>201810060227513_SetNullableToCustomerBirthday.cs</DependentUpon>
+    <Compile Include="Migrations\201810060328311_AfterNullableBithday.cs" />
+    <Compile Include="Migrations\201810060328311_AfterNullableBithday.Designer.cs">
+      <DependentUpon>201810060328311_AfterNullableBithday.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -389,8 +389,8 @@
     <EmbeddedResource Include="Migrations\201810060224019_AddCustomerBirthday.resx">
       <DependentUpon>201810060224019_AddCustomerBirthday.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810060227513_SetNullableToCustomerBirthday.resx">
-      <DependentUpon>201810060227513_SetNullableToCustomerBirthday.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201810060328311_AfterNullableBithday.resx">
+      <DependentUpon>201810060328311_AfterNullableBithday.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
